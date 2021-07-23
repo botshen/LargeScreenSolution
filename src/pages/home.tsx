@@ -8,7 +8,7 @@ export const Home = () => {
         <div className="home">
             <header className="x" style={{backgroundImage: `url(${headerBg})`}}></header>
             <main>
-                <section className="section1"></section>
+                <section className="section1">hi</section>
                 <section className="section2"></section>
                 <section className="section3"></section>
                 <section className="section4"></section>
