@@ -37,5 +37,13 @@ body {
 #root {
   margin: 0 auto;
   background: aqua;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.App {
+  flex: 1;
 }
 
