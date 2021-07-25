@@ -1,7 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import * as echarts from 'echarts';
 import {createEchartsOptions} from '../shared/create-echarts-options';
-import {px} from '../shared/px';
 import china from '../geo/china.json';
 
 export const Chart6 = () => {
@@ -75,9 +74,9 @@ export const Chart6 = () => {
             <div className="wrapper">
                 <div ref={divRef} className="chart"/>
                 <div className="legend bordered">
-                    <span className="icon" style={{background: colors['甘肃省']}}/>甘肃籍
-                    <span className="icon" style={{background: colors['四川省']}}/>四川籍
-                    <span className="icon" style={{background: colors['青海省']}}/>青海籍
+                    <span className="icon" style={{background: colors['甘肃省']}}/>甘岭籍
+                    <span className="icon" style={{background: colors['四川省']}}/>边城籍
+                    <span className="icon" style={{background: colors['青海省']}}/>寒国籍
                 </div>
                 <div className="notes">此地图仅显示了中国的部分区域</div>
             </div>
