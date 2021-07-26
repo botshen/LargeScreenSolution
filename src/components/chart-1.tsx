@@ -37,7 +37,12 @@ export const Chart1 = () => {
             },
             series: [{
                 type: 'bar',
-                data: [10, 20, 36, 41, 15, 26, 37, 18, 29]
+                data: [10, 20, 36, 41, 15, 26, 37, 18, 29],
+                itemStyle: {
+                    normal: {
+                        color: '#4ad2ff'
+                    }
+                }
             }]
         }));
     }, []);

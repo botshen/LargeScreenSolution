@@ -14,20 +14,21 @@ export const Chart6 = () => {
             xAxis: {show: false},
             yAxis: {show: false},
             series: [
+
                 {
                     type: 'map',
                     mapType: 'CN', // 自定义扩展图表类型
                     data: [
                         {name: '甘肃省', value: 1},
                     ],
-                    label: {show: false, color: 'white'},
+                    label: {show: true, color: 'yellow', fontSize: '12px'},
                     itemStyle: {
-                        areaColor: '#010D3D',
+                        areaColor: '#085165',
                         color: colors['甘肃省'],
-                        borderColor: '#01A7F7',
+                        borderColor: '#e6db74',
                         emphasis: {
                             label: {color: 'white'},
-                            areaColor: '#5470C6',
+                            areaColor: '#e6db74',
                         },
                     }
                 },
@@ -74,11 +75,11 @@ export const Chart6 = () => {
             <div className="wrapper">
                 <div ref={divRef} className="chart"/>
                 <div className="legend bordered">
-                    <span className="icon" style={{background: colors['甘肃省']}}/>甘岭籍
-                    <span className="icon" style={{background: colors['四川省']}}/>边城籍
-                    <span className="icon" style={{background: colors['青海省']}}/>寒国籍
+                    <span className="icon" style={{background: colors['甘肃省']}}/>主城区
+                    <span className="icon" style={{background: colors['四川省']}}/>边城区
+                    <span className="icon" style={{background: colors['青海省']}}/>城乡区
                 </div>
-                <div className="notes">此地图仅显示了中国的部分区域</div>
+                <div className="notes">此地图仅显示了北京的部分区域</div>
             </div>
         </div>
     );

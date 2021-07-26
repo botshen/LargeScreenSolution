@@ -41,7 +41,7 @@ export const Chart10 = () => {
                     color: '#0A97FB'
                 }, {
                     offset: 1,
-                    color: '#1E34FA'
+                    color: '#00d9da'
                 }]),
             }]
         }));
